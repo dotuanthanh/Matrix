@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    matrix=[
+        [1,5,6,7],
+        [2,6,-4,1],
+        [1,2,3,5]
+    ]
+    let mark
+    for(var i=0;i<matrix.length;i++){
+        for(var j=0; j <matrix[i].length;j++){
+            if(matrix[i][j]<=0){
+                mark=0
+                break
+            }
+        }
+    }
+    if(mark==0){
+        alert("mang nay co ptu am")
+    }
+    else{
+        alert("phan tu trong mang nay duong het")
+    }
+</script>
